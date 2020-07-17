@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="172dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="8dp"
+
+        android:background="@drawable/icon_buttons"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862"
+        app:srcCompat="@drawable/attendance" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="172dp"
+        android:layout_height="107dp"
+        android:background="@drawable/icon_buttons"
+        android:onClick="joinClass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783"
+        app:srcCompat="@drawable/communicate" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="172dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/icon_buttons"
+        android:onClick="getTimetable"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/calendar" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="172dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/icon_buttons"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/syllabus" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="172dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/icon_buttons"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/results" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

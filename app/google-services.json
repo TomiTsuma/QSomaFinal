@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "976602495784",
+    "firebase_url": "https://qsomafinal.firebaseio.com",
+    "project_id": "qsomafinal",
+    "storage_bucket": "qsomafinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976602495784:android:54f68a154ff894a1906e1d",
+        "android_client_info": {
+          "package_name": "com.example.qsomafinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976602495784-l58gfaft5c8qc59jurjc96lmc0ug8kdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qsomafinal",
+            "certificate_hash": "49474aea1796172e02f141923a6e3ce8f7858b3a"
+          }
+        },
+        {
+          "client_id": "976602495784-ckp0rnoqv35jm1m63407rq23o4q9ln40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOSRtitzzeFK4AEnla37hYYV3D64B0h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976602495784-ckp0rnoqv35jm1m63407rq23o4q9ln40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
